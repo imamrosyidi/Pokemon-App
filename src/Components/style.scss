@@ -8,7 +8,7 @@ body {
     url("./../assets/background.jpg");
 }
 .container {
-  width: 90%;
+  width: 100%;
   margin: auto;
   padding-top: 50px;
   display: flex;
@@ -25,45 +25,9 @@ body {
     overflow-y: scroll;
   }
   .right-content {
-    width: 50%;
-    text-align: center;
-    color: black;
-    position: fixed;
-    top: 100px;
-    right: 10px;
-
-    img {
-      margin: 1.5rem;
-      height: 160px;
-    }
-
-    h1 {
-      text-transform: uppercase;
-      font-weight: bold;
-      letter-spacing: 1px;
-    }
+    // width: 100%;
+    padding: 50px;
   }
-}
-
-.right-content .abilities {
-  width: 70%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1rem;
-  .group {
-    background-color: #b74555;
-    color: white;
-    padding: 0.5rem;
-    font-size: 12px;
-    border-radius: 8px;
-    margin-left: 1rem;
-  }
-}
-
-.base-stat {
-  margin-top: 2rem;
 }
 
 .btn-group {
@@ -72,14 +36,18 @@ body {
     outline: none;
     border: none;
     width: 150px;
-    height: 50px;
-    padding: 0.3rem;
-    margin: 1rem;
+    padding: 10px;
     font-size: 17px;
     font-weight: bold;
+    margin: 10px;
     color: white;
-    background-color: #34d3fb;
+    background-color: #810101;
     border-radius: 8px;
+  }
+  button:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: #d10404;
+    cursor: pointer;
   }
 }
 

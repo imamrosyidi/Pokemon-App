@@ -1,0 +1,35 @@
+.detailsContainer {
+  height: 70vh;
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(148, 207, 216),
+    rgb(218, 221, 181)
+  );
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  align-items: center;
+  text-align: center;
+
+  .title {
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #053e76;
+  }
+
+  img {
+    height: 200px;
+    width: auto;
+  }
+  .abilities {
+    display: flex;
+  }
+
+  .statistic {
+    width: 700px;
+    height: 200px;
+  }
+}

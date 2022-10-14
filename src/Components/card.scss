@@ -12,44 +12,46 @@
   h2 {
     font-size: medium;
     padding: 5px;
-    background-color: rgb(5, 62, 118);
+    background-color: #053e76;
     border-radius: 15px;
     color: white;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
   }
 }
 
 .card:hover {
   cursor: pointer;
+  border: 3px dashed #ffffff;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .rock {
-  background-color: rgb(148, 81, 81);
+  background-image: linear-gradient(to bottom right, rgb(255, 120, 120), white);
 }
 .ghost {
-  background-color: rgb(247, 247, 247);
+  background-image: linear-gradient(to bottom right, rgb(253, 253, 124), white);
 }
 .electric {
-  background-color: rgb(255, 255, 161);
+  background-image: linear-gradient(to bottom right, rgb(90, 155, 165), white);
 }
 .bug {
-  background-color: #f6d6a7;
+  background-image: linear-gradient(to bottom right, rgb(75, 75, 145), white);
 }
 .poison {
-  background-color: #e0a7f6;
+  background-image: linear-gradient(to bottom right, rgb(132, 154, 83), white);
 }
 .normal {
-  background-color: #f4f4f4;
+  background-image: linear-gradient(to bottom right, rgb(174, 89, 172), white);
 }
 .fairy {
-  background-color: rgba(255, 192, 203, 0.863);
+  background-image: linear-gradient(to bottom right, rgb(94, 183, 140), white);
 }
 .fire {
-  background-color: #fbe3df;
+  background-image: linear-gradient(to bottom right, rgb(195, 152, 104), white);
 }
 .grass {
-  background-color: #e2f9e1;
+  background-image: linear-gradient(to bottom right, rgb(144, 109, 218), white);
 }
 .water {
-  background-color: #e0f1fd;
+  background-image: linear-gradient(to bottom right, rgb(71, 112, 148), white);
 }
